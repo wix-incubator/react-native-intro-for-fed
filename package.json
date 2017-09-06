@@ -1,0 +1,26 @@
+{
+	"name": "FEDReactNativeIntro",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"patch-babel": "rm /Users/ofird/code/fed-rn-intro/node_modules/react-autobind/.babelrc",
+		"test": "jest"
+	},
+	"dependencies": {
+		"a-wix-react-native-commons": "^2.350.0",
+		"react-native-navigation": "^1.1.81",
+		"react-native-ui-lib": "^2.0.88",
+		"wix-react-native-ui-lib": "^1.837.0",
+		"lottie-react-native": "^1.1.1",
+		"react-native-custom-segmented-control": "^3.0.8",
+		"react-native-action-view": "^1.0.6"
+	},
+	"devDependencies": {
+		"jest": "21.0.1",
+		"react-test-renderer": "16.0.0-alpha.6"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
