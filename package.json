@@ -9,12 +9,13 @@
 	},
 	"dependencies": {
 		"a-wix-react-native-commons": "^2.350.0",
+		"axios": "^0.16.2",
+		"lottie-react-native": "^1.1.1",
+		"react-native-action-view": "^1.0.6",
+		"react-native-custom-segmented-control": "^3.0.8",
 		"react-native-navigation": "^1.1.81",
 		"react-native-ui-lib": "^2.0.88",
-		"wix-react-native-ui-lib": "^1.837.0",
-		"lottie-react-native": "^1.1.1",
-		"react-native-custom-segmented-control": "^3.0.8",
-		"react-native-action-view": "^1.0.6"
+		"wix-react-native-ui-lib": "^1.837.0"
 	},
 	"devDependencies": {
 		"jest": "21.0.1",

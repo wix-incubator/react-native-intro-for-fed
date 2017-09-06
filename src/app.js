@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import {Button, Notification} from 'wix-react-native-ui-lib';
+import ContactList from './contact-list/contact-list.component';
 
 export default class App extends Component {
 
@@ -19,17 +20,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
-        <Button
-          label="Hit Me"
-          onPress={this.toggleNotification}
-        />
-        {this.state.showNotification && <Text>Whoopi doo</Text>}
-        {false && <Notification
-          visible={this.state.showNotification}
-          message="Whoopi doo"
-        />}
-      </View>
+      <ContactList/>
     );
   }
 }
