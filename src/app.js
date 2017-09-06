@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import {Button, Notification} from 'wix-react-native-ui-lib';
 import ContactList from './contact-list/contact-list.component';
+import Orientation from './orientation/orientation.component';
 
 export default class App extends Component {
 
@@ -20,7 +21,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <ContactList/>
+      <Orientation/>
     );
   }
 }
