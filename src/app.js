@@ -22,9 +22,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <View style={{backgroundColor: 'beige', flex: 1, justifyContent: 'flex-end'}}>
-        <SendInput/>
-      </View>
+      <ContactList {...this.props}/>
     );
   }
 }

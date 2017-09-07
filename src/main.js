@@ -7,6 +7,8 @@ import App from './app';
 // MessageQueue.spy(true);
 
 Navigation.registerComponent('com.wix.MainScreen', () => App);
+Navigation.registerComponent('com.wix.ContactPosts', () => require('./contact-posts/contact-posts.component').default);
+
 Navigation.startSingleScreenApp({
   screen: {
     screen: 'com.wix.MainScreen',
