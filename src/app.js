@@ -3,6 +3,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import {Button, Notification} from 'wix-react-native-ui-lib';
 import ContactList from './contact-list/contact-list.component';
 import Orientation from './orientation/orientation.component';
+import SendInput from './send-input/send-input';
 
 export default class App extends Component {
 
@@ -21,7 +22,9 @@ export default class App extends Component {
 
   render() {
     return (
-      <Orientation/>
+      <View style={{backgroundColor: 'beige', flex: 1, justifyContent: 'flex-end'}}>
+        <SendInput/>
+      </View>
     );
   }
 }
