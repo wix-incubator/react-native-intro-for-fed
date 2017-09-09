@@ -4,14 +4,23 @@ Checkout the slides [here](https://slides.com/ofird/intro-to-react-native/live#/
 
 ### Demos:
 
-#### Demo 1 - Debugging the bridge
+#### Installation
 
 ```sh
-git checkout step-1
+git clone
+yarn
 npm run start
+//in another terminal
 react-native run-ios
 //or
 react-native run-android
+```
+
+#### Demo 1 - Debugging the bridge
+
+```sh
+uncomment the demo 1 section in app.js (comment the rest)
+refresh the app (cmd + r for iphone or double r for android)
 ```
 
 ![debugging the bridge](docs/assets/debgging-the-bridge.jpg "debugging the bridge")
@@ -19,11 +28,8 @@ react-native run-android
 #### Demo 2 - Expose Native Functionality in Javascript
 
 ```sh
-git checkout step-3
-npm run start
-react-native run-ios
-//or
-react-native run-android
+uncomment the demo 2 section in app.js (comment the rest)
+refresh the app (cmd + r for iphone or double r for android)
 ```
 
 ![native-methods](docs/assets/native-methods.jpg "native-methods")
@@ -31,11 +37,8 @@ react-native run-android
 #### Demo 3 - Different Javascript Implementation For Different Platforms
 
 ```sh
-git checkout step-4-send-input
-npm run start
-react-native run-ios
-//or
-react-native run-android
+uncomment the demo 3 section in app.js (comment the rest)
+refresh the app (cmd + r for iphone or double r for android)
 ```
 
 ![different js implementation](docs/assets/different-js-implementation.jpg "different js implementation")
@@ -43,11 +46,8 @@ react-native run-android
 #### Demo 4 - Using Native UI Components
 
 ```sh
-git checkout step-6-native-ui-components
-npm run start
-react-native run-ios
-//or
-react-native run-android
+uncomment the demo 4 section in app.js (comment the rest)
+refresh the app (cmd + r for iphone or double r for android)
 ```
 
 ![native ui components](docs/assets/native-ui-components.jpg "native ui components")
@@ -55,11 +55,8 @@ react-native run-android
 #### Demo 5 - Real Life App
 
 ```sh
-git checkout step-5-contact-posts
-npm run start
-react-native run-ios
-//or
-react-native run-android
+uncomment the demo 5 section in app.js (comment the rest)
+refresh the app (cmd + r for iphone or double r for android)
 ```
 
 ![real life app](docs/assets/real-life-app.gif "real life app")

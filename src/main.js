@@ -4,7 +4,7 @@ import App from './app';
 
 //clear bridge
 //comment registerEvents here - /Users/ofird/code/fed-rn-intro/node_modules/react-native/Libraries/WebSocket/WebSocket.js
-// MessageQueue.spy(true);
+MessageQueue.spy(true);
 
 Navigation.registerComponent('com.wix.MainScreen', () => App);
 Navigation.registerComponent('com.wix.ContactPosts', () => require('./contact-posts/contact-posts.component').default);
