@@ -16,7 +16,12 @@ export default class SendInput extends PureComponent{
   render() {
     return (
       <View style={s.inputWrapper}>
-        <TextInput style={s.input} onChangeText={this.onChangeText} value={this.state.text}/>
+        <TextInput
+          style={s.input}
+          onChangeText={this.onChangeText}
+          value={this.state.text}
+          underlineColorAndroid="transparent"
+        />
         <SendButton/>
       </View>
     );

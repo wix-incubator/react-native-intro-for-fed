@@ -18,7 +18,7 @@ export default class OrientationComponent extends PureComponent {
 
   render() {
     return (
-      <Text>{this.state.orientation}</Text>
+      <Text style={{fontSize: 20}}>{this.state.orientation}</Text>
     );
   }
 }
