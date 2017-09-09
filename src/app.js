@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {StyleSheet, Text, View, Platform} from 'react-native';
-import {Button, Notification} from 'wix-react-native-ui-lib';
+import {Button, Notification} from 'react-native-ui-lib';
 import ContactList from './contact-list/contact-list.component';
 import Orientation from './orientation/orientation.component';
 import SendInput from './send-input/send-input';

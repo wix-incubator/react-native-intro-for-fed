@@ -1,8 +1,8 @@
 import contacts from '../services/contacts';
 import React, {PureComponent} from 'react';
 import {FlatList} from 'react-native';
-import {Avatar, List30} from 'wix-react-native-ui-lib';
 import {AvatarHelper} from 'react-native-ui-lib';
+import ContactListItem from './contact-list-item.component';
 
 export default class ContactList extends PureComponent {
 
@@ -35,14 +35,14 @@ export default class ContactList extends PureComponent {
     const props = {
       title: user.name,
       subtitle: user.city,
-      onPress,
-      avatar: <Avatar
-        label={initials}
-        isOnline={index % 3 === 0}
-      />,
+      initials,
+      isOnline: index % 3 === 0,
+      onPress
     };
 
-    return <List30.Item {...props}/>;
+    return (
+      <ContactListItem {...props}/>
+    );
   }
 
   render() {

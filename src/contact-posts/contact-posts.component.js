@@ -1,7 +1,7 @@
 import contacts from '../services/contacts';
 import React, {PureComponent} from 'react';
 import {FlatList, View, Text} from 'react-native';
-import {Cards, Typography, Colors} from 'wix-react-native-ui-lib';
+import {Card, Typography, Colors} from 'react-native-ui-lib';
 
 export default class ContactPosts extends PureComponent {
 
@@ -26,20 +26,22 @@ export default class ContactPosts extends PureComponent {
     };
 
     return (
-      <Cards.Card>
-        <Cards.GenericCardBody>
-          <View style={{flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
-            <View>
-              <Text style={{color: Colors.dark20, ...Typography.text70}}>
-                {row.title}
-              </Text>
-              <Text style={{color: Colors.dark40, ...Typography.text90, marginTop: 5}}>
-                {row.subtitle}
-              </Text>
+      <View style={{margin: 10}}>
+        <Card>
+          <Card.Item style={{margin: 25}}>
+            <View style={{flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
+              <View>
+                <Text style={{color: Colors.dark20, ...Typography.text70}}>
+                  {row.title}
+                </Text>
+                <Text style={{color: Colors.dark40, ...Typography.text90, marginTop: 5}}>
+                  {row.subtitle}
+                </Text>
+              </View>
             </View>
-          </View>
-        </Cards.GenericCardBody>
-      </Cards.Card>
+          </Card.Item>
+        </Card>
+      </View>
     );
   }
 
