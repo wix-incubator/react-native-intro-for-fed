@@ -1,6 +1,6 @@
 ### FED Intro to ReactNative
 
-Checkout the slides [here](https://slides.com/ofird/intro-to-react-native/live#/).
+Checkout the slides [here](https://slides.com/ofird/intro-to-react-native/).
 
 ### Demos:
 
