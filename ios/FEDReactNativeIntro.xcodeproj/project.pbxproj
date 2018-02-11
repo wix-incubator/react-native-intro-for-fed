@@ -25,10 +25,8 @@
 		366AA1481F63D692007F7B23 /* BEMAnalogClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 366AA1451F63D692007F7B23 /* BEMAnalogClockView.m */; };
 		366AA1491F63D692007F7B23 /* KSMHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 366AA1471F63D692007F7B23 /* KSMHand.m */; };
 		366AA16C1F63D765007F7B23 /* AnalogClockManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 366AA16B1F63D765007F7B23 /* AnalogClockManager.m */; };
-		36D906501F5F61AD00BEA592 /* libLottie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D9064F1F5F619F00BEA592 /* libLottie.a */; };
 		3CBFCC37FE6C4EC2B8962ACE /* libSwipeActionView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E016D2213C4F82ABF21050 /* libSwipeActionView.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		7FB70CF3003D4641B0DBBDD8 /* libLottieReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D71CA697EB4D039781A9B3 /* libLottieReactNative.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		86629BD5A09145D4B33EACF7 /* libCustomSegmentedControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 971090643C6243AE8CABE0BA /* libCustomSegmentedControl.a */; };
 		E4F48545578B41D581820E29 /* libReactNativeNavigation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F447194E3AD841A99139BA65 /* libReactNativeNavigation.a */; };
@@ -91,26 +89,12 @@
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
 		};
-		36D906191F5F616200BEA592 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 48F3259FDBA74A55A84F60AD /* LottieReactNative.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 11FA5C511C4A1296003AC2EE;
-			remoteInfo = LottieReactNative;
-		};
 		36D906351F5F616200BEA592 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E8AB5C88F72642A08FF9A197 /* ReactNativeNavigation.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D8AFADBD1BEE6F3F00A4592D;
 			remoteInfo = ReactNativeNavigation;
-		};
-		36D906381F5F616200BEA592 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7C0A12404CCE48ED8959B706 /* UI-LIB.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 13B07F961A680F5B00A75B9A;
-			remoteInfo = "UI-LIB";
 		};
 		36D9063D1F5F616200BEA592 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -275,8 +259,6 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* FEDReactNativeIntroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEDReactNativeIntroTests.m; sourceTree = "<group>"; };
 		11D71CA697EB4D039781A9B3 /* libLottieReactNative.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libLottieReactNative.a; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
@@ -297,10 +279,8 @@
 		366AA1471F63D692007F7B23 /* KSMHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSMHand.m; sourceTree = "<group>"; };
 		366AA16B1F63D765007F7B23 /* AnalogClockManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalogClockManager.m; sourceTree = "<group>"; };
 		36D906441F5F619F00BEA592 /* Lottie.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lottie.xcodeproj; path = "../node_modules/lottie-ios/Lottie.xcodeproj"; sourceTree = "<group>"; };
-		48F3259FDBA74A55A84F60AD /* LottieReactNative.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = LottieReactNative.xcodeproj; path = "../node_modules/lottie-react-native/lib/ios/LottieReactNative.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
-		7C0A12404CCE48ED8959B706 /* UI-LIB.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = "UI-LIB.xcodeproj"; path = "../node_modules/wix-react-native-ui-lib/ios/UI-LIB.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		971090643C6243AE8CABE0BA /* libCustomSegmentedControl.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libCustomSegmentedControl.a; sourceTree = "<group>"; };
 		A0782B8E2D764E358D244DCF /* SwipeActionView.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = SwipeActionView.xcodeproj; path = "../node_modules/react-native-action-view/ios/lib/SwipeActionView.xcodeproj"; sourceTree = "<group>"; };
@@ -326,10 +306,8 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				36D906501F5F61AD00BEA592 /* libLottie.a in Frameworks */,
 				0138F240B8A84FABAB356C5B /* libRCTActionSheet.a in Frameworks */,
 				E4F48545578B41D581820E29 /* libReactNativeNavigation.a in Frameworks */,
-				7FB70CF3003D4641B0DBBDD8 /* libLottieReactNative.a in Frameworks */,
 				86629BD5A09145D4B33EACF7 /* libCustomSegmentedControl.a in Frameworks */,
 				3CBFCC37FE6C4EC2B8962ACE /* libSwipeActionView.a in Frameworks */,
 			);
@@ -378,23 +356,6 @@
 				00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		00E356EF1AD99517003FC87E /* FEDReactNativeIntroTests */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F21AD99517003FC87E /* FEDReactNativeIntroTests.m */,
-				00E356F01AD99517003FC87E /* Supporting Files */,
-			);
-			path = FEDReactNativeIntroTests;
-			sourceTree = "<group>";
-		};
-		00E356F01AD99517003FC87E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F11AD99517003FC87E /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
@@ -448,6 +409,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		26057DA020309F7C00FFFBA7 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				C2C67DE7983A44C9BD21591D /* libRCTActionSheet.a */,
+				F447194E3AD841A99139BA65 /* libReactNativeNavigation.a */,
+				11D71CA697EB4D039781A9B3 /* libLottieReactNative.a */,
+				971090643C6243AE8CABE0BA /* libCustomSegmentedControl.a */,
+				22E016D2213C4F82ABF21050 /* libSwipeActionView.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		366AA1431F63D692007F7B23 /* BEMAnalogClock */ = {
 			isa = PBXGroup;
 			children = (
@@ -456,30 +429,13 @@
 				366AA1461F63D692007F7B23 /* KSMHand.h */,
 				366AA1471F63D692007F7B23 /* KSMHand.m */,
 			);
-			name = BEMAnalogClock;
 			path = BEMAnalogClock;
-			sourceTree = "<group>";
-		};
-		36D906121F5F616200BEA592 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				36D906391F5F616200BEA592 /* UI-Lib.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		36D906141F5F616200BEA592 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				36D906361F5F616200BEA592 /* libReactNativeNavigation.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		36D906161F5F616200BEA592 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				36D9061A1F5F616200BEA592 /* libLottieReactNative.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -544,8 +500,6 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				E8AB5C88F72642A08FF9A197 /* ReactNativeNavigation.xcodeproj */,
-				7C0A12404CCE48ED8959B706 /* UI-LIB.xcodeproj */,
-				48F3259FDBA74A55A84F60AD /* LottieReactNative.xcodeproj */,
 				C2F13B7524C14B80AE1B73B5 /* CustomSegmentedControl.xcodeproj */,
 				A0782B8E2D764E358D244DCF /* SwipeActionView.xcodeproj */,
 			);
@@ -566,8 +520,8 @@
 			children = (
 				13B07FAE1A68108700A75B9A /* FEDReactNativeIntro */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* FEDReactNativeIntroTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
+				26057DA020309F7C00FFFBA7 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -632,10 +586,6 @@
 					ProjectRef = 36D906441F5F619F00BEA592 /* Lottie.xcodeproj */;
 				},
 				{
-					ProductGroup = 36D906161F5F616200BEA592 /* Products */;
-					ProjectRef = 48F3259FDBA74A55A84F60AD /* LottieReactNative.xcodeproj */;
-				},
-				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
 				},
@@ -686,10 +636,6 @@
 				{
 					ProductGroup = 36D9063F1F5F616200BEA592 /* Products */;
 					ProjectRef = A0782B8E2D764E358D244DCF /* SwipeActionView.xcodeproj */;
-				},
-				{
-					ProductGroup = 36D906121F5F616200BEA592 /* Products */;
-					ProjectRef = 7C0A12404CCE48ED8959B706 /* UI-LIB.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -756,25 +702,11 @@
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		36D9061A1F5F616200BEA592 /* libLottieReactNative.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libLottieReactNative.a;
-			remoteRef = 36D906191F5F616200BEA592 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		36D906361F5F616200BEA592 /* libReactNativeNavigation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libReactNativeNavigation.a;
 			remoteRef = 36D906351F5F616200BEA592 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		36D906391F5F616200BEA592 /* UI-Lib.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "UI-Lib.app";
-			remoteRef = 36D906381F5F616200BEA592 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		36D9063E1F5F616200BEA592 /* libCustomSegmentedControl.a */ = {
