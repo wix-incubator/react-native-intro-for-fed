@@ -388,8 +388,8 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				366AA16B1F63D765007F7B23 /* AnalogClockManager.m */,
-				360AF6A71F604A2400D7293D /* Orientation.m */,
 				360AF6CA1F604A3600D7293D /* Orientation.h */,
+				360AF6A71F604A2400D7293D /* Orientation.m */,
 			);
 			name = FEDReactNativeIntro;
 			sourceTree = "<group>";

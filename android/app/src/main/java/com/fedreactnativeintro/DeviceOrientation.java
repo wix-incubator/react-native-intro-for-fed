@@ -10,9 +10,6 @@ import com.facebook.react.bridge.ReactMethod;
 
 import static android.content.res.Configuration.ORIENTATION_LANDSCAPE;
 
-/**
- * Created by ofird on 06/09/2017.
- */
 
 public class DeviceOrientation extends ReactContextBaseJavaModule {
 
