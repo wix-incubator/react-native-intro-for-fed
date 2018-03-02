@@ -2,7 +2,7 @@
 //  Orientation.m
 //  FEDReactNativeIntro
 //
-//  Created by Ofir Dagan on 06/09/2017.
+//  Created by Ran Greenberg on 06/09/2017.
 //  Copyright © 2017 Facebook. All rights reserved.
 //
 
@@ -14,12 +14,10 @@
 
 RCT_EXPORT_MODULE();
 
-
 RCT_REMAP_METHOD(getCurrent,
                  resolver:(RCTPromiseResolveBlock)resolve
                  rejecter:(RCTPromiseRejectBlock)reject)
 {
-  
   UIDeviceOrientation orientation = [[UIDevice currentDevice] orientation];
   NSString *const result = orientation == UIDeviceOrientationPortrait ? @"portrait" : @"landscape";
   resolve(result);

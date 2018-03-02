@@ -3,6 +3,6 @@ import {Text} from 'react-native';
 
 export default () => {
   return (
-    <Text style={{color: 'blue'}}>SEND</Text>
+    <Text style={{color: 'blue', fontSize: 24}}>SEND</Text>
   );
 }

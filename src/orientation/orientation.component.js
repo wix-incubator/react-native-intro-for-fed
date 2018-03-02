@@ -1,6 +1,6 @@
 import {NativeModules} from 'react-native';
 const Orientation = NativeModules.Orientation;
-import {Text} from 'react-native';
+import {View, Text} from 'react-native';
 import React, {PureComponent} from 'react';
 
 export default class OrientationComponent extends PureComponent {
@@ -18,7 +18,9 @@ export default class OrientationComponent extends PureComponent {
 
   render() {
     return (
-      <Text style={{fontSize: 20}}>{this.state.orientation}</Text>
+      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+        <Text style={{fontSize: 28}}>{`📱 ${this.state.orientation} 📱`}</Text>
+      </View>
     );
   }
 }

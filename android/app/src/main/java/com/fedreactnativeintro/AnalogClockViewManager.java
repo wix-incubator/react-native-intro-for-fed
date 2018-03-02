@@ -20,5 +20,4 @@ public class AnalogClockViewManager extends SimpleViewManager<CustomAnalogClock>
   public void setAutoUpdate(CustomAnalogClock view, Boolean autoUpdate) {
     view.setAutoUpdate(autoUpdate);
   }
-
 }

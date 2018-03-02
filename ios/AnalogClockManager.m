@@ -2,7 +2,7 @@
 //  AnalogClockManager.m
 //  FEDReactNativeIntro
 //
-//  Created by Ofir Dagan on 09/09/2017.
+//  Created by Ran Greenberg on 09/09/2017.
 //  Copyright © 2017 Facebook. All rights reserved.
 //
 
@@ -21,7 +21,6 @@ RCT_EXPORT_MODULE()
 
 - (UIView *)view
 {
-  
   BEMAnalogClockView *myClock = [[BEMAnalogClockView alloc] init];
   myClock.currentTime = YES;
   return myClock;
